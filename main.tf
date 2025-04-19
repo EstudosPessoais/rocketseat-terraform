@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3_bucket" {
-    bucket = "rocketseat-bucker-iac-${terraform.workspace}"
+    bucket = "rocketseat-bielb1b2-bucket-iac-${terraform.workspace}"
 
     tags = {
       Name = "Primeiro Bucket"
