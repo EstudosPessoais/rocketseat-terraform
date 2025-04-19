@@ -1,0 +1,12 @@
+# Diretório com plugins e metadados
+.terraform/
+
+# Arquivo de estado
+*.tfstate
+*.tfstate.backup
+
+# Arquivos sensíveis de variáveis
+terraform.tfvars
+
+# Exemplo de var file a ser compartilhado
+!terraform.tfvars.example
